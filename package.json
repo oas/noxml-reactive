@@ -1,0 +1,19 @@
+{
+  "name": "noxml-reactive",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vitest ./test/main.test.ts",
+    "test": "vitest --run ./test",
+    "update": "npm update noxml"
+  },
+  "dependencies": {
+    "noxml": "github:oas/noxml#main",
+    "yjs": "14.0.0-1"
+  },
+  "devDependencies": {
+    "@types/node": "18.16.1",
+    "vitest": "latest",
+    "typescript": "5.4.5",
+    "ts-node": "10.9.2"
+  }
+}
